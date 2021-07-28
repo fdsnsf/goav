@@ -115,7 +115,6 @@ func Linesize(f *Frame) (linesize [8]int32) {
 	}
 	return
 }
-
 func NbSamples(f *Frame) int32 {
 	return int32(f.nb_samples)
 }
